@@ -1,0 +1,1 @@
+$(".navigationBarFull").hide();

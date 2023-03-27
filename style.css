@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #1f1f38;
+	background-image: url(img/bg-texture.png);
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+	font-size: x-large;
+	font-weight: 900;
+	color: #4cb5fd;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 10px;
+	background-color: #2a2c69;
+}
+
+.navigationBar{
+
+	
+	
+}
+
+.navigationBarFull{
+	background-color: #4cb5fd;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.startMain{
+	margin-top: 100px;
+}
+.navBarList{
+	margin-top: 1%
+}
+
+#list{
+	
+	position: absolute;
+	right: 0;
+	
+}
+
+.nav-item{
+	padding-right: 50px;
+	
+}
+
+#list p{
+	
+	color: #1f1f38;
+	font-weight:500;
+	
+	
+}
+
+#list p:hover {
+	color: #4cb5fd;
+	background-color: #1f1f38;
+	border-radius: 250px
+
+}
+
+#backimage{
+	
+	height: 600px;
+
+}
+#developer {
+	font-size: smaller;
+}
+
+#selfImage{
+	margin-top: 100px;
+}
+
+
+
+#btn1{
+	color: #4cb5fd;
+	border: 1px solid #4cb5fd;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: smaller;
+}
+#btn2{
+	background-color: #4cb5fd;
+	color: #1f1f38; ;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: smaller;
+}
+
+#btntwo{
+	margin-top: 1%;
+}
+
+
+#about-me{
+	margin-top: 150px;
+}
+
+#about-me p {
+	font-size: small;
+}
+
+#about-me h2{
+	color: #4cb5fd;
+}
+
+#aboutxMeImage{
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.cards{
+	
+	background-color: #2a2c69;
+	border-radius: 20px;
+}
+
+
+.cards i {
+	color: #4cb5fd;
+	font-size: 25px;
+	
+}
+
+.cards h5 {
+	margin-top: 20px;
+}
+.cards p{
+	font-size: smaller;
+	color: rgba(255, 255, 255, 0.673);
+}
+
+.icon{
+
+	font-size: 20px;
+	color: #4cb5fd;
+}
+.expCardHead{
+	font-weight: 600;
+}
+
+.expCardCollection{
+	margin-top:70px;
+}
+.expCardDetail{
+	color: rgba(255, 255, 255, 0.673);
+}
+
+.expCard{
+	background-color: #2a2c69;
+	border-radius: 20px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+.serviceCardCollection{
+	margin-top: 70px;
+}
+
+.serviceCard{
+	background-color: #2a2c69;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-bottom: 20px;
+	border: 1px solid #4cb5fd;
+
+}
+
+.serviceCardHead{
+	padding-top: 20px;
+	padding-bottom:20px;
+	background-color: #4cb5fd;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+
+.serviceCardHeadText{
+	padding-top: 50px;
+	padding-bottom:50px;
+	padding: 15px;
+	font-size: medium;
+	color: #1f1f38;
+}
+
+.serviceCard li{
+	color: rgba(255, 255, 255, 0.673);
+	font-size: small;
+	margin-top: 20px;
+}
+
+.portfolioCardRow1{
+	margin-top: 70px;
+}
+.portfolioCardRow2{
+	margin-top: 30px;
+}
+.portfolioCard{
+	background-color: #2a2c69;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+
+.portfolioCard img{
+	border-radius: 25px;
+}
+.portfolioCard h6{
+	margin-top: 5px;
+}
+#portfolioBtn1{
+	border: 1px solid #4cb5fd;
+	color: #4cb5fd;
+	font-size: smaller;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#portfolioBtn2{
+	background-color: #4cb5fd;
+	color:#2a2c69;	
+	font-size: smaller;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+.testimonialCard{
+	margin-top: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	background-color: #2a2c69;
+	border-radius: 20px;
+}
+
+.testimonialCard img{
+	border-radius: 500px;
+	height: 80px;
+	border: 7px solid #4cb6fdc9;
+	margin: 20px;
+}
+
+.testimonialName{
+	font-weight: 600;
+}
+
+.testimonialText{
+	text-align: justify;
+	font-size: small;
+	color:rgba(255, 255, 255, 0.673)
+}
+
+.contactMeCollection{
+	margin-top: 70px;
+}
+.contactMeCard{
+	padding: 20px;
+	background-color: #2a2c69;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.contactMeCard:hover{
+
+	background-color: #4cb5fd;
+	color: #1f1f38;
+
+}
+
+.contactMeCard:hover i{
+
+	color: #1f1f38;
+
+}
+
+.contactMeCard:hover p{
+
+	color: #1f1f38;
+
+}
+
+
+
+
+
+.contactMeCard i{
+	font-size: 25px;
+	color: #4cb5fd;
+	
+	
+}
+
+
+.contactMeCard h5{
+	padding-top: 20px;
+}
+
+.contactMeCard h6{
+	font-size: medium;
+}
+
+.contactMeCard p{
+	font-size: small;
+	color:#4cb5fd
+}
+
+
+#validationCustom01{
+	background: none;
+	border: none;
+	border: 1px solid #4cb5fd;
+	padding: 20px;
+	color: #4cb5fd;
+}
+
+#validationCustom02{
+	background: none;
+	border: none;
+	border: 1px solid #4cb5fd;
+	padding: 20px;
+	color: #4cb5fd;
+}
+
+#validationCustom03{
+	background: none;
+	border: none;
+	border: 1px solid #4cb5fd;
+	padding: 20px;
+	color: #4cb5fd;
+}
+
+
+
+#validationCustom04{
+	background: none;
+	border: none;
+	border: 1px solid #4cb5fd;
+	padding: 20px;
+	color: #4cb5fd;
+	padding-bottom: 100px;
+	
+}
+
+
+.contactMeBtn{
+	
+	margin-top: 10px;
+	background-color: #4cb5fd;
+	color: #1f1f38;
+	font-size: medium;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contactMeForm{
+	margin-top: 20px;
+}
+
+.footer{ 
+	margin-top: 70px;
+	background-color: #4cb5fd;
+	padding-bottom: 50px;
+
+}
+
+.footer h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #1f1f38;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.footer p{
+	color: #1f1f38;
+}
+
+.footerIcon{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footerIcon i{
+	color: #1f1f38;
+	font-size: 30px;
+
+}
+
+.copyright{
+
+	font-size: small;
+}
+
+.float{
+	position: fixed;
+	right: 40px;
+	bottom: 20px;
+}
+
+.whatsappIcon{
+	color: #4FCE5D;
+	font-size: xx-large;
+
+}
+
+.float p{
+	font-size: x-small;
+	color: #4cb5fd;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+	.float{
+		position: fixed;
+		right: 20px;
+		bottom: 10px;
+	}
+	
+
+	
+
+	#list{
+	
+		position: relative;
+		
+	}
+
+	#list p{
+		color: #1f1f38;
+		font-weight:500;
+		
+	}
+	#backimage{
+		height: inherit;
+		margin: inherit;
+	}
+	#navbarSupportedContent{
+		margin-top: 20px;
+	}
+	#developer {
+		font-size:x-small
+	}
+	
+	#btn1{
+		color: #4cb5fd;
+		border: 1px solid #4cb5fd;
+		font-size: x-small;
+	}
+	#btn2{
+		background-color: #4cb5fd;
+		color: #1f1f38; ;
+
+		font-size: x-small;
+	}
+
+	#about-me{
+		margin-top: 150px;
+	}
+
+	#about-me p {
+		font-size:x-small;
+	}
+
+	.cards{
+	
+		background-color: #2a2c69;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+	
+	.cards p{
+		font-size: x-small;
+	}
+	
+	.expCard{
+		margin-bottom: 20px;
+	}
+
+
+	.expCardHead{
+		font-size: medium;
+	}
+
+	.expCardDetail{
+		font-size: x-small;
+	}
+
+	.icon{
+		font-size: medium;
+	}
+
+	.serviceCard{
+		margin-bottom: 20px;
+	}
+	.portfolioCardRow2{
+		margin-top: 5px;
+	}
+	#portfolioBtn1{
+		font-size: x-small;
+	}
+	#portfolioBtn2{
+		font-size: x-small;
+	}
+
+	.contactMeBtn{
+		font-size: small;
+	}
+	
+
+	#validationCustom01{
+		padding: 10px;
+	}
+	
+	#validationCustom02{
+		padding: 10px;
+	}
+	
+	#validationCustom03{
+		padding: 10px;
+	}
+	
+	
+	
+	#validationCustom04{
+		padding: 10px;
+		padding-bottom: 100px;
+		
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
